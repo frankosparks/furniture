@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 222, 237);
+}
+.container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+    font-family: sans-serif;
+    color: rgb(58, 79, 111);
+    background-color: rgb(216, 222, 237);
+}
+
+.img img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 4% 0% 0% 4%;
+}
+.det{
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+    border-radius: 0% 4% 4% 0%;
+}
+h3{
+    line-height: 1.5rem;
+}
+p{
+    line-height:1.5rem ;
+}
+.profile{
+    display: flex;
+    gap: 1.2rem;
+    padding-right: 5rem;
+}
+.pic img{
+    width: 3rem;
+    border-radius: 50%;
+}
+.picd{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.share{
+    padding: 1rem;  
+}
+.share img{
+    border-radius: 50%;
+    width: 1.3rem;
+    background-color: rgb(238, 231, 231);
+    
+}
+#Michelle{
+    font-size: 15px;
+    
+}
